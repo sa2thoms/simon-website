@@ -2,8 +2,9 @@
   "name": "simon-website",
   "version": "1.0.0",
   "description": "Simon's Personal Website",
-  "main": "index.js",
+  "main": "./src/server/index.js",
   "scripts": {
+    "start:local": "nodemon ./src/server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/sa2thoms/simon-website/issues"
   },
-  "homepage": "https://github.com/sa2thoms/simon-website#readme"
+  "homepage": "https://github.com/sa2thoms/simon-website#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
