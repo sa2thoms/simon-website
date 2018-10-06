@@ -1,0 +1,11 @@
+.leaderboard-component-div {
+  display: flex;
+  flex-direction: column;
+  max-width: 720px;
+}
+
+.leaderboard-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

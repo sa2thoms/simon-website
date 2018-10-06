@@ -1,0 +1,25 @@
+::ng-deep {
+  table {
+    border-collapse: collapse;
+    thead, tbody {
+      tr {
+        th, td {
+          text-align: left;
+          border: 1px solid #c5c5c5;
+          padding: 4px;
+        }
+        .right-align {
+          text-align: right;
+        }
+      }
+    }
+
+    thead {
+      tr {
+        th {
+          background-color: #c7ccff;
+        }
+      }
+    }
+  }
+}
