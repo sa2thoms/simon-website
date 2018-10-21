@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { LeaderboardComponent } from './leaderboard/leaderboard.component';
+import {BossBattleModule} from './boss-battle/boss-battle.module';
+import {AppRoutingModule} from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,9 @@ import { LeaderboardComponent } from './leaderboard/leaderboard.component';
     LeaderboardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BossBattleModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
