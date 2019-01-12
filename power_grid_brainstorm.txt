@@ -1,0 +1,45 @@
+Game:
+  - stage (1, 2, or 3)
+  - players (array of Player)
+    
+Player:
+  - cash
+  - Power plants (Array of Plant)
+  - numberOfHouses
+
+Plant:
+  - value
+  - power
+  - fuelCost (number)
+  - fuelTypes (array of FuelType)
+  - picture
+
+FuelType (enum)
+
+Deck
+  - cards (array of Plants and ThirdStageCard)
+
+FuelMarket
+  - coalStock
+  - oilStock
+  - garbageStock
+  - uraniumStock
+
+Map
+  - cities (array of City)
+
+City
+  - tenOccupant
+  - fifteenOccupant
+  - twentyOccupant
+  - connections (array of PowerLine)
+
+PowerLine
+  - cost
+  - firstCity
+  - secondCity
+
+PlantMarket
+  - marketType (fourPlant or sixPlant)
+  - onMarket (Array of Plant)
+  - futureMarket (Array of Plant)
