@@ -3,15 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start:server": "npm run build:server && npm run serve",
-    "start:client": "npm run build:client && ng serve",
+    "start:server": "nodemon dist/out-tsc/server/server.js",
+    "start:client": "ng serve",
     "build:client": "ng build",
+    "build:server": "tsc",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "build:server": "npm run tsc",
-    "tsc": "tsc",
-    "serve": "nodemon dist/out-tsc/server/server.js"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
