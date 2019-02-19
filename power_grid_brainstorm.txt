@@ -1,7 +1,7 @@
 Game:
   - stage (1, 2, or 3)
   - players (array of Player)
-    
+
 Player:
   - cash
   - Power plants (Array of Plant)
@@ -27,6 +27,7 @@ FuelMarket
 
 Map
   - cities (array of City)
+  - connection (array of PowerLine)
 
 City
   - tenOccupant
