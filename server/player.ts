@@ -4,4 +4,5 @@ export class Player {
     cash: number;
     plants: [Plant];
     numberOfHouses: number;
+    name: string;
 }
